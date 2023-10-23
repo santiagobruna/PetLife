@@ -1,0 +1,41 @@
+#farmacia {
+  text-align: center;
+}
+
+#farmacia img {
+  margin: 64px auto;
+}
+
+#farmacia .paragrafo {
+  max-width: 954px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  #farmacia {
+    flex-direction: column;
+    text-align: center;
+  }
+  #farmacia img {
+    margin: 0;
+    width: 300px;
+  }
+
+  #farmacia .paragrafo {
+    padding: 0 15px;
+  }
+}
+
+/* Estilos para telas médias (768px a 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  #farmacia img {
+    width: 400px;
+  }
+  #farmacia .paragrafo {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 0 20px;
+  }
+}

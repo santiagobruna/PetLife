@@ -1,0 +1,25 @@
+/* Início do Cabeçalho */
+.header {
+  background-color: var(--background-navegacao);
+  
+}
+.navegacao a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 32px;
+}
+  
+  .navegacao a:hover {
+    color: #FF7676;
+  }
+  /* Fim Cabeçalho */
+  
+
+/* Estilos para telas médias (768px a 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    width: 100%;
+  }
+}

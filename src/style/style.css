@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fonte);
+}
+
+:root {
+  --background-navegacao: #ff9a6c;
+  --cor-primaria: #ff725e;
+  --fonte: "Montserrat", sans-serif;
+}
+
+body {
+  color: #263138;
+}
+
+main {
+  margin: 0 auto;
+ 
+}
